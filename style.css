@@ -1,3 +1,30 @@
-background {
-    background-image: url(assets/gorilla-fitness-gym-vector_88879-130.avif);
-} 
+dropdown button{
+    background-color:rgb(86, 86, 92)
+    color(srgb rgb(4, 4, 4) rgb(233, 241, 233) blue)
+    padding 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown a{
+    display: block;
+    color:rgb(15, 7, 7);
+    text-decoration: solid;
+    padding: 10px 15px
+}
+.dropdown .content{
+    display: none;
+    position: absolute;
+    background-color: rgb(98, 98, 108);
+    min-width: 100px;
+    box-shadow: 2px 2px 5px rgb(98, 98, 107);
+}
+.dropdown:hover .content{
+    display: block;
+}
+
+
+
+
+
+
+
