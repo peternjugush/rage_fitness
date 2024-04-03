@@ -11,49 +11,42 @@
 <link href="https://fonts.googleapis.com/css2?family=Tac+One&display=swap" rel="stylesheet">
 </head>
 
-<body>
-
-    <div class="container">
-        <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="assets/gym.png" style="width: 100px;" alt=""></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <li class="nav-link" href="#">Home</li>
-                  <a class="nav-link" href="features.html">Features</a>
-                  <a class="nav-link" href="bmi_calculater.html">BMI</a>
-                  <a class="nav-link" href="location.html">location</a>
-                  <a class="nav-link" href="contact us.html">contact us</a>
-                </div>
-              </div>
+<div class="container">
+    <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="assets/gym.png" style="width: 100px;" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <li class="nav-link" href="index.html">Home</li>
+              <a class="nav-link" href="features.html">Features</a>
+              <a class="nav-link" href="bmi_calculater.html">BMI</a>
+              <a class="nav-link" href="location.html">location</a>
+              <a class="nav-link" href="contact us.html">contact us</a>
             </div>
-          </nav>
-    </div>
-    <h1 class="title">KARIBU RAGEFITNESS;)</h1>
+          </div>
+        </div>
+      </nav>
+</div>
+<form
+  action="https://formspree.io/f/xleqpzbk"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
 
-    
-<body>
-<form action="mobility.html" method="GET">
-            <input type="text" name="search_query" placeholder="Enter your search query">
-            <input type="submit" value="Search">
-        </form>
-    </body>
-    </html>
-    
-    <div id="exercise-form">
-        <input type="text" id="exercise-name" placeholder="Exercise Name">
-        <input type="number" id="sets" placeholder="Sets">
-        <input type="number" id="reps" placeholder="Reps">
-        <input type="number" id="weight" placeholder="Weight">
-
-        <button onclick="addExercise()">INPUT EXERCISE</button>
-      <div class="input">
-       </div>
-    </div>
-    <!-- Footer -->
+     <!-- Footer -->
 <footer class="text-center text-lg-start bg-body-tertiary text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">

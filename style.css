@@ -14,17 +14,54 @@ dropdown button{
 .dropdown .content{
     display: none;
     position: absolute;
-    background-color: rgb(98, 98, 108);
+    background-color:rgb(229, 229, 244);
     min-width: 100px;
-    box-shadow: 2px 2px 5px rgb(98, 98, 107);
+    box-shadow: 2px 2px 5px rgb(239, 239, 242);
 }
 .dropdown:hover .content{
     display: block;
 }
 
+ .dropdown {
+    position: relative;
+    display: inline-block;
+ }
+
+.title {
+    color: red;
+    text-align: center;
+    font-family: "Tac One", sans-serif;
+    font-weight: 300;
+    font-style: initial;
+}
 
 
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
 
-
-
-
+  body {
+    font-family: Arial, sans-serif;
+}
+form {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.bmiForm[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+.bmiForm[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
